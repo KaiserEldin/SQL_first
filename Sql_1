@@ -1,0 +1,39 @@
+-- 1
+-- SELECT * 
+-- FROM `customer` 
+-- WHERE balance > 50
+
+-- 2
+-- SELECT *
+-- FROM `customer`
+-- WHERE email LIKE "%EE%"
+
+-- 3
+-- UPDATE `customer` 
+-- SET `first_name`='VLAS',`last_name`='LAZEBNIY' 
+-- WHERE customer_id = 1
+
+-- 4
+-- SELECT `first_name`
+-- FROM `customer`
+-- WHERE balance > 150 AND balance < 220
+
+-- 5
+-- SELECT COUNT(`country_id`) as Count 
+-- FROM `country`
+
+-- 6
+-- DELETE 
+-- FROM `country`
+-- WHERE `country_id` = 80
+
+-- 7
+-- INSERT INTO `country`(`country`) 
+-- VALUES ("Vichy France"), 
+-- ("Reichscommissariat Moskowien"), 
+-- ("Legionary Romania")
+
+-- 8
+-- SELECT *
+-- FROM `country`
+-- WHERE country.country LIKE "U%"
